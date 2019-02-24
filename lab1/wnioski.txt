@@ -1,0 +1,12 @@
+1.
+Wartość WPC jest wartościa poczatkowa. Zmiana argumentów R oraz C wpływa na prędkość osiągania danej wartości przez funkcję. Układ przy sterowaniu=0 wyraża się wzorem x'(t)=-1/(R*C)*x(t),ktorego rozwiazaniem jest x(t)=e^(-t/(R*C))*x(0). Wartość K jest odwrotnie proporcjonalna do iloczynu R i C co oznacza, że wartosc K spada wraz ze wzrostem argumentow R i C. Mozna z tego wywnioskowac, ze napiecie w ukladzie spada wolniej jesli opor lub pojemnosc kondensatora wzrasta.
+2.
+Dla wartosci poczatkowej rownej 0 i stalego sterowania wartosc funkcji logarytmicznie zbliza się do wartosci sterowania.Wraz ze spadkiem oporu oraz pojemnosci kondensatora napiecie rosnie szybciej.
+3. 
+Dla WPC=1 wartość napiecia jest stała i wynosi 1
+Dla WPC>1 wartość napiecia spada zbliżając się do wartości sterowania
+Dla WPC<1 wartość napiecia rosnie zbliżajac się do wartosci sterowania
+4.
+Kiedy t należy do przedziału [0,5] wartosc napiecia rosnie dążąc do wartosci sterowania = 3, kiedy t>5 wartość napięcia spada dazac do nowej wartosci sterowania ktora jest rowna 0.Wartosci R oraz C wplywaja na predkosc wzrostu i spadku wartosci napiecia.Im są one wieksze tym napiecie rosnie i spada wolniej.
+5.
+Przy amplitudzie=1 oraz czestotliwosci=10Hz i zmniejszanych wartościach R i C amplituda drgań zwiększa się.
