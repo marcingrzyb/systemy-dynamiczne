@@ -1,0 +1,19 @@
+MarcinGrzyb wnioski lab4
+1.
+Zmiana amplitudy sygna³u wejœæiwoego powoduje zmianê sygna³u wyjœciowego(zwiekszenie na wejsciu zwieksza na wyjsciu).
+Zmiana czêstotliwoœci sygna³u wejœæiwoego powoduje zmianê sygna³u wyjœciowego(zwiekszenie na wejsciu zwieksza na wyjsciu)
+Zmiana czêstotliwoœci powoduje równie¿ zmianê amplitudy,zwiêkszaj¹c j¹ do ok 5 rad/s osi¹gamy wzrost amplitudy,kontynuujaæ zwiekszanie(czêstotliwosc>5) wartosci amplitudy malej¹.
+2.
+Korzystaj¹c z kryterium Nyquista:
+Uk³ad  G(s) = 1/(s^2 + s + 2) jest asymptotycznie stabilny. Charaktrystyka Nyquista nie obejmuje punktu P(-1,0) na p³aszczyŸnie zespolonej, dlatego uk³ad po zamkniêciu bêdzie asymptotycznie stabilny.
+Uklad G(s)=s/(s^2-0.1s+1) nie jest asymptotycznie stabilny. Charaktrystyka Nyquista obejmuje punkt P(-1,0) na p³aszczyŸnie zespolonej, dlatego uk³ad po zamkniêciu nie bêdzie asymptotycznie stabilny.
+3.
+Analizuj¹c charakterystyki zadanych filtrów mo¿emy wywnioskowaæ, ¿e:
+Filtr dolnoprzepustowy filtruje wysokie czêstotliwoœci(filtrowanie zaczyna siê od ok 10^-1 rad/s) .
+Filtr górnoprzepustowy filtruje niskie czêstotliwoœci(filtrowanie maleje ok 10^1rad/s).
+Filtr pasmoprzepustowy filtruje niskie oraz wysokie czêstotliwoœci(najmniejsze filtrowanie  ok 10^0rad/s).
+Filtr drugiego rzêdu filtruje wysokie czêstotliwoœci oraz wzmacnia œrednie(wzmacnia ok 10^0rad/s).
+Dla ka¿dego filtru wraz ze wzrostem czêstotliwoœæi zmniejsza siê przesuniêcie fazowe.
+Zasada dzialania filtru dla sumy sygnalow jest filtracja pojedynczych skladowych wejsciowego sygnalu po czym przefiltrowane skladowe sumowane sa do wyjsciowego sygnalu.
+4.
+KOrzytsjac ze wzoru 1.17 z konspektu 4 oraz faktu,ze ma nastapic spadek o 20dB wnioskujemy, ze A(w)=1/10(A(W(gr)) z tego wynika,ze fgr=1/10f, a wiedzac ze fgr=1/(2*pi*RC) wynika,¿e dla fgr =sqrt(len(imie+nazwisko)) RC=0,4799 czyli np R=1,a C=0,4799.
