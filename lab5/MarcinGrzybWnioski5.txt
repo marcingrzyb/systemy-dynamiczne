@@ -1,0 +1,22 @@
+Marcin Grzyb
+Wnioski Sprawozdanie 5
+
+Zadanie1.
+@1
+Mo¿emy wyznaczyæ dwa punkty równowagi:
+xr=0 - lokalnie asymptotycznie stabilny, obszar atrakcji to (-inf;1/e),
+xr=1/e(przyjmujê epsilon = 0.3 czyli 1/e=3) -niestabilny,trajektorie oddalaja siê od tego punktu.
+@2
+Punkt równowagi systemu to: 
+(0;0) - jest on lokalnie asympotycznie stabilny.
+@3
+Punkty równowagi systemy to:
+(0;0)-lokalnie asymptotycznie stabilny,
+(-2/3;0)-niestabilny.
+Zadanie2.
+Punkt równowagi xr=0(jest jedyny(espilon=0)),jest globalnie asymptotycznie stabilny .
+Przy zmniejszeniu wartosci epsilon system zlinearyzowany coraz lepiej przybliza system nieliniowy.
+Zadanie3.
+Niespe³nione zalo¿enie Tw. Grobmana Hartmana czyli brak hiperbolicznosci powoduje, ¿e portret linearyzacji znacznie rózni siê od wykresu systemu.
+Zadanie4.
+Punkty równowagi spe³niaj¹ za³o¿enia Tw. Grobmana Hartmana(czêœæ rzeczywsita wartoœci w³asnych macierzy J(xr)!=0) wiêc mo¿emy zaoobserwowaæ,¿e trajektorie systemu zlinearyzowanego w punktach równowagi przypominaj¹ wykres sytemu dok³adnego.
