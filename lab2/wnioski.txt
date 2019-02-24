@@ -1,0 +1,36 @@
+﻿Marcin Grzyb
+
+a)
+J=[0,0;0,0];- brak portretu fazowego
+b)
+J=[0,1;0,0];-portret fazowy przyjmuje postac rownoleglych poziomych linii wydluzajacych się wraz z odlegloscia od centrum portretu
+c)
+J=[0,0;0,-1];-portret fazowy przyjmuje postac pionowych rownoległych linii, dla odpowiednich WPC układają się one w okrąg jednostkowy lub kwadrat.
+d)
+J=[-1,0;0,-2];-portret fazowy składający się z symetrycznych parabol(tzw Węzeł), dla odpowiednich WPC układają się one w okrąg jednostkowy lub kwadrat.
+e)
+J=[-1,0;0,-1]; portret fazowy przyjmuje postać linii przecinających się w punkcie(0,0)(tzw Gwiazda), dla odpowiednich WPC układają się one w okrąg jednostkowy lub kwadrat.
+f)
+J=[-1,1;0,-1];-portret fazwoy składa się z krzywych zbiegających do punktu(0,0)(tzw Węzeł Zdegenerowany),dla odpowiednich WPC układają się one w okrąg jednostkowy lub kwadrat.
+g)
+J=[-1,0;0,1];-portret fazowy składający się z hiperbol 
+h)
+J=[0,-1;1,0];-portret fazowy składający się z okręgow o środku w punkcie(0,0)(tzw Środek)
+i)
+J=[-1,-1;1,-1];-portret fazowy o kształcie spirali,dla odpowiednich WPC układają się one w okrąg jednostkowy lub kwadrat.
+
+Wektory własne określają osie dla układu.
+Zmiana wektorów własnych wpływa na rotację oraz zmianę asymptot portretu.
+
+AD a)Brak możliwości zmiany wartości własnych aby zachować typ portretu(λ1=λ2=0)
+AD b)Brak możliwości zmiany wartości własnych aby zachować typ portretu(λ1=λ2=0)
+AD c)Zmiana wartości własnej λ<0 nie wplywa na wygląd portretu fazowego
+AD d)Zamiana wartości λ1 i λ2 skutkuje rotacją portretu.Samo zmniejszenie wartosci λ2 skutkuje zwiększeniem stopnia wielomianu funkcji.
+AD e)Zmiana wartości własnych λ1=λ2<0 nie wplywa na wygląd portretu fazowego
+AD f)zmniejszenie wartości własnych λ1=λ2<0 skutkuje zmniejszeniem skręcenia portretu(zbliża się wyglądem do portretu typu Gwiazda)
+AD g)Równomierne zmniejszenie λ1 i zwiększenie λ2 nie ma wpływu na wygląd portretu,zmniejszanie λ1 przy stałym λ2 oddala wartość funkcji od asymptoty natomiast zwiększenie λ2 przy stalym λ1 zbliża wartość funkcji do asymptoty
+AD h)Brak możliwości zmiany wartości własnych aby zachować typ portretu(λ1=λ2=0)
+AD i)zmniejszenie wartości własnych λ1=λ2<0 skutkuje zmniejszeniem skręcenia portretu(zbliża się wyglądem do portretu typu Gwiazda),zmniejszenie części urojonej zwiększa skręcenie portrtu.
+
+WPC określa punkt początkowy funkcji. Portrety fazowe wyrysowane z użyciem WPC obliczonego: WPC(1) = sin(x), WPC(2) = cos(x), ograniczone są przez okrąg jednostkowy natomiast z użyciem wzoru WPC(1) =cos(x)/ρ(x), WPC(2) =sin(x)/ρ(x) gdzie ρ(x) = max(|sin(x)|, | cos(x)|) są ograniczone przez kwadrat o boku 1.
+Zwiększenie WPC w sposob: WPC=[sin(j);cos(j)]; WPC=2*WPC; spowoduje zmiane promienia okręgu *2 oraz analogicznie dla kwadratu. 
