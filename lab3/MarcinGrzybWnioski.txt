@@ -1,0 +1,15 @@
+Marcin Grzyb wnioski
+1.
+1.lambda>1 uk³ad niestabilny, jego wartoœci monotonicznie zbiegaj¹ do nieskoñczonoœci 
+2.lambda=1 uk³ad stabilny utrzymuje wartoœæ=WPC
+3.0<lambda<1 uk³ad asymptotycznie stabilny jego wartoœæ spada do 0
+4.Dla lambda=0 uk³ad asymptotycznie stabilny posiadaj¹cy 2 stany: WPC dla k=0 oraz 0 dla k>0
+5.-1<lambda<0 uk³ad asymptotycznie stabilny, system oscyluje zbiegajac asymptotycznie do zera
+6.lambda=-1 uk³ad stabilny, przyjmuje na zmianê wartoœci WPC i -WPC
+7.lambda<-1 wartoœci rozchodz¹ siê na zmianê do nieskoñczonoœci oraz -nieskoñczonoœci, system jest niestabilny, wystepuj¹ oscylacje.
+
+2.Im mniejsza wartoœæ okresu próbkowanial tym bardzidej wykres siê wyg³adza czyli wartoœci uk³adów zbli¿aj¹ siê do siebie.Funkcje przyjmuj¹ te same wartoœci dla wielokrotnoœci wartoœæi okresu próbkowania.
+
+3.Na podstawie wykresu mo¿emy stwierdziæ, ¿e ”W praktyce im czêœciej bank dopisuje odsetkido salda lokaty, tym lepiej dla klienta" poniewa¿ przy dwunastokrotnej kapitalizacji w roku funkcja osiaga wyzsza wartosc od pozstalych <12.
+
+4.Warunki zastosowania metody Newtona-Raphsona nie s¹ spe³nione poniewaz pierwsza oraz druga pochodna nie maj¹ sta³ego znaku na zadanym przedziale,co skutkuje nieskutecznym wyznaczeniem pierwiastka równania(metoda znajduje 4 a powinna 1).
